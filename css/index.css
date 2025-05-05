@@ -35,15 +35,85 @@ body{
     font-size: 2.4rem;
     background-color: var(--color-Floral-White);
 }
+
+a{
+    text-decoration: none;
+}
+
+/* ESTILOS PARA EL HEADER */
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.4rem 6.4rem;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    display: flex;
+    gap: 4.8rem;
+}
+
+nav ul a{
+    font-family: var(--fuente-encabezado);
+    color: var(--color-Dark-Charcoal);
+}
+
+/* ESTILOS PARA LA SECCION DEL BANNER PRINCIPAL*/
+
+#inicio{
+    display: flex;
+    background-color: var(--color-Pastel-Orange);
+    background-image: url(../img/VECTOR_1.svg), url(../img/VECTOR_2.svg), url(../img/VECTOR_3.svg);
+    background-position: left, bottom right, top right;
+    background-repeat: no-repeat;
+    justify-content: space-between;
+}
+
+#inicio div{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-left: 24rem;
+    padding: 4rem 0;
+}
+
+#inicio div h1{
+    font-family: var(--fuente-encabezado);
+    color: var(--color-Floral-White);
+    font-size: 6.4rem;
+    font-weight: bold;
+}
+
+#inicio div p{
+    margin: .8rem 0 1.6rem 0;
+}
+
+#inicio div a{
+    font-family: var(--fuente-encabezado);
+    color: var(--color-Purple-Navy);
+    background-color: var(--color-Floral-White);
+    border: .2rem solid var(--color-Purple-Navy);
+    border-radius: 25rem;
+    padding: 1rem 2.4rem;
+    font-weight: 700;
+    width: 26rem;
+}
+
+#inicio img{
+    margin-right: 30rem;
+}
+
 .main-conntainer {
     max-height: 100vh;
     display: flex;
     flex-direction: column;
 }
-.header {
-    background-color: aqua;
-    height: 497px;
-}
+
 .mejores_productos {
     height: 610px ;
 }
